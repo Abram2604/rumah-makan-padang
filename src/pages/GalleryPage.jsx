@@ -47,7 +47,6 @@ function GalleryPage() {
         </Container>
       </section>
 
-      {/* Komponen Lightbox, hanya muncul saat `open` bernilai true */}
       <Lightbox
         open={open}
         close={() => setOpen(false)}

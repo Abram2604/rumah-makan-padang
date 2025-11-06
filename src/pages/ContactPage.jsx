@@ -13,18 +13,13 @@ function ContactPage() {
         </div>
 
         <Row>
-          {/* ========== KOLOM KIRI: INFORMASI ========== */}
           <Col lg={5} md={12} className="mb-5 mb-lg-0">
-            
-            {/* --- Bagian Informasi Kontak --- */}
             <h3 className="info-title">Informasi Kontak</h3>
             <div className="info-block">
-              <p><strong>Alamat:</strong> Jl. Kuliner Raya No. 123, Jakarta, Indonesia</p>
+              <p><strong>Alamat:</strong>Jl. Imanan Residence, Serang, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530</p>
               <p><strong>Telepon:</strong> +62 812-1234-5678</p>
-              <p><strong>Email:</strong> info@padangdelights.com</p>
+              <p><strong>Email:</strong> info@rmputrisulung.com</p>
             </div>
-            
-            {/* --- Bagian Jam Buka --- */}
             <h3 className="info-title mt-4">Jam Buka</h3>
             <div className="info-block">
               <p><strong>Senin - Jumat:</strong> 10:00 - 22:00</p>

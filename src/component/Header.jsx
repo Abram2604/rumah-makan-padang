@@ -9,32 +9,25 @@ function Header() {
   return (
     // Kita gunakan className custom agar bisa di-styling
     <Navbar expand="lg" className="navbar-custom" variant="dark">
-      <Container fluid> {/* `fluid` agar container memenuhi lebar layar */}
-        
-        {/* Grup Kiri: Logo + Kontak */}
+      <Container fluid> 
         <div className="d-flex align-items-center">
           <Navbar.Brand as={NavLink} to="/">
             <span className="brand-highlight">RM</span> Putri Sulung
           </Navbar.Brand>
-          <div className="contact-info d-none d-lg-flex"> {/* Sembunyikan di layar kecil */}
+          <div className="contact-info d-none d-lg-flex"> 
             <BsTelephoneFill className="icon" />
             <div>
-              <span className="label">Pesan Meja</span>
+              <span className="label">Pesan Sekarang</span>
               <span>+62 812-1234-5678</span>
             </div>
           </div>
         </div>
-
-        {/* Tombol Hamburger (muncul di layar kecil) */}
         <Navbar.Toggle aria-controls="main-navbar-nav" />
 
-        {/* Grup Kanan: Navigasi + Pencarian */}
         <Navbar.Collapse id="main-navbar-nav">
-          {/* `ms-auto`: Mendorong grup ini ke kanan */}
           <Nav className="ms-auto align-items-center">
             <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
             <Nav.Link as={NavLink} to="/about">About Us</Nav.Link>
-            {/* Ganti nama menu sesuai kebutuhan Anda */}
             <Nav.Link as={NavLink} to="/services">Services</Nav.Link>
             <Nav.Link as={NavLink} to="/product">Product</Nav.Link>
             <Nav.Link as={NavLink} to="/gallery">Gallery</Nav.Link>
@@ -42,7 +35,6 @@ function Header() {
             <BsSearch className="search-icon" />
           </Nav>
         </Navbar.Collapse>
-
       </Container>
     </Navbar>
   );

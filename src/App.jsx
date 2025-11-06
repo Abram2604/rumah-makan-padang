@@ -17,14 +17,9 @@ function App() {
   return (
     // 2. Ini adalah pembungkus utama aplikasi
     <div>
-      {/* Header akan selalu tampil di atas untuk semua halaman */}
       <Header />
-
-      {/* Tag <main> untuk konten utama yang akan berubah-ubah */}
       <main>
-        {/* <Routes> adalah area di mana React Router akan menukar halaman */}
         <Routes>
-          {/* 3. Definisikan setiap rute/halaman yang Anda miliki */}
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
@@ -33,8 +28,6 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
-
-      {/* Footer akan selalu tampil di bawah untuk semua halaman */}
       <Footer />
     </div>
   );

@@ -32,7 +32,6 @@ function ServicesPage() {
         </p>
 
         <Row xs={1} md={2} lg={3} className="g-4 justify-content-center">
-          {/* xs=1 kolom, md=2 kolom, lg=3 kolom, g-4=gap, justify-content-center=pusatkan baris */}
           {services.map((service, index) => (
             <Col key={index}>
               <Card className="service-card">
