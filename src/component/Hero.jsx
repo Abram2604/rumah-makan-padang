@@ -1,16 +1,29 @@
-import React, { useState } from 'react';
-import { Container, Button, Carousel } from 'react-bootstrap';
-import { FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
-import './Hero.css';
+import React, { useState } from "react";
+import { Container, Button, Carousel } from "react-bootstrap";
+import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+import "./Hero.css";
 
 function Hero() {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex) => setIndex(selectedIndex);
 
   const slides = [
-    { image: '/images/image.png', subtitle: 'RUMAH MAKAN PADANG TERBAIK', title: 'Masakan Asli dari<br/>Dapur Minang<br/>Terbaik' },
-    { image: '/images/nasi.jpg', subtitle: 'RESEP WARISAN LELUHUR', title: 'Rasa Otentik<br/>Turun Temurun<br/>Sejak Dulu' },
-    { image: '/images/Nasi-Padang.jpg', subtitle: 'BAHAN-BAHAN KUALITAS TERBAIK', title: 'Selalu Segar<br/>Setiap Hari<br/>Untuk Anda' },
+    {
+      image: "/images/image.png",
+      subtitle: "RUMAH MAKAN PADANG TERBAIK",
+      title: "Masakan Asli dari<br/>Dapur Minang<br/>Terbaik",
+    },
+    {
+      image: "/images/nasi.jpg",
+      subtitle: "RESEP WARISAN LELUHUR",
+      title: "Rasa Otentik<br/>Turun Temurun<br/>Sejak Dulu",
+    },
+    {
+      image: "/images/Nasi-Padang.jpg",
+      subtitle: "BAHAN-BAHAN KUALITAS TERBAIK",
+      title: "Selalu Segar<br/>Setiap Hari<br/>Untuk Anda",
+    },
   ];
 
   return (
@@ -33,8 +46,17 @@ function Hero() {
             <Carousel.Caption className="hero-caption">
               <Container>
                 <p className="hero-subtitle">{slide.subtitle}</p>
-                <h1 className="hero-title" dangerouslySetInnerHTML={{ __html: slide.title }} />
-                <Button variant="warning" size="lg" className="hero-button">
+                <h1
+                  className="hero-title"
+                  dangerouslySetInnerHTML={{ __html: slide.title }}
+                />
+                <Button
+                  as={NavLink}
+                  to="/contact"
+                  variant="warning"
+                  size="lg"
+                  className="hero-button"
+                >
                   Pesan Sekarang
                 </Button>
               </Container>
@@ -45,9 +67,15 @@ function Hero() {
 
       {/* Pindahkan social icons keluar dari Carousel supaya bukan dianggap slide */}
       <div className="social-icons">
-        <a href="#twitter"><FaTwitter /></a>
-        <a href="#instagram"><FaInstagram /></a>
-        <a href="#linkedin"><FaLinkedinIn /></a>
+        <a href="#twitter">
+          <FaTwitter />
+        </a>
+        <a href="#instagram">
+          <FaInstagram />
+        </a>
+        <a href="#linkedin">
+          <FaLinkedinIn />
+        </a>
       </div>
     </>
   );
