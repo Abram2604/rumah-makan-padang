@@ -7,7 +7,6 @@ import "./Header.css";
 
 function Header() {
   return (
-    // Kita gunakan className custom agar bisa di-styling
     <Navbar expand="lg" className="navbar-custom" variant="dark" sticky="top">
       <Container fluid>
         <div className="d-flex align-items-center">
