@@ -14,9 +14,9 @@ function AboutPage() {
           {/* `mb-4 mb-lg-0`: Memberi margin-bottom 4, tapi dihilangkan di layar besar */}
           <Col lg={6} md={12} className="mb-4 mb-lg-0">
             <p className="about-subtitle">TENTANG KAMI</p>
-            <h2 className="about-title">Kisah Dibalik Rasa Otentik Padang Delights</h2>
+            <h2 className="about-title">Kisah Dibalik Rasa Otentik RM Putri Sulung</h2>
             <p className="about-text">
-              Berawal dari kecintaan kami terhadap masakan Minang yang kaya akan rempah dan rasa, Padang Delights lahir untuk menyajikan hidangan otentik yang diwariskan dari generasi ke generasi. Kami berkomitmen untuk menggunakan bahan-bahan segar berkualitas terbaik dan resep asli untuk menghadirkan pengalaman kuliner yang tak terlupakan bagi Anda.
+              Berawal dari kecintaan kami terhadap masakan Minang yang kaya akan rempah dan rasa, <b>RM Putri Sulung</b> lahir untuk menyajikan hidangan otentik yang diwariskan dari generasi ke generasi. Kami berkomitmen untuk menggunakan bahan-bahan segar berkualitas terbaik dan resep asli untuk menghadirkan pengalaman kuliner yang tak terlupakan bagi Anda.
             </p>
             <p className="about-text mt-3">
               Setiap hidangan di Padang Delights adalah cerminan dari dedikasi dan passion kami dalam melestarikan warisan kuliner Nusantara. Selamat menikmati!
@@ -29,7 +29,7 @@ function AboutPage() {
           <Col lg={6} md={12}>
             {/* Ganti dengan URL gambar Anda sendiri */}
             <Image 
-              src="https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop"
+              src="/images/abang2.jpg"
               alt="Pemilik Padang Delights" 
               className="about-image"
               fluid 

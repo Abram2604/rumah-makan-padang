@@ -14,7 +14,7 @@ function Header() {
         {/* Grup Kiri: Logo + Kontak */}
         <div className="d-flex align-items-center">
           <Navbar.Brand as={NavLink} to="/">
-            <span className="brand-highlight">Padang</span> Delights
+            <span className="brand-highlight">RM</span> Putri Sulung
           </Navbar.Brand>
           <div className="contact-info d-none d-lg-flex"> {/* Sembunyikan di layar kecil */}
             <BsTelephoneFill className="icon" />

@@ -6,14 +6,14 @@ import './ProductPage.css';
 // Ganti nama fungsinya
 function ProductPage() { 
   const menuItems = [
-    { id: 1, image: 'https://i.ibb.co/mG7g2Fz/rendang.png', title: 'Rendang Sapi', price: 'Rp 28.000', rating: 5 },
-    { id: 2, image: 'https://i.ibb.co/fDb0zZg/ayam-pop.png', title: 'Ayam Pop', price: 'Rp 22.000', rating: 5 },
-    { id: 3, image: 'https://i.ibb.co/YcXJ0sC/gulai-cincang.png', title: 'Gulai Cincang', price: 'Rp 25.000', rating: 5 },
-    { id: 4, image: 'https://i.ibb.co/3zd0b4h/dendeng-balado.png', title: 'Dendeng Balado', price: 'Rp 26.000', rating: 4 },
-    { id: 5, image: 'https://i.ibb.co/mG7g2Fz/rendang.png', title: 'Gulai Tunjang', price: 'Rp 24.000', rating: 4 },
-    { id: 6, image: 'https://i.ibb.co/fDb0zZg/ayam-pop.png', title: 'Ayam Bakar', price: 'Rp 22.000', rating: 5 },
-    { id: 7, image: 'https://i.ibb.co/YcXJ0sC/gulai-cincang.png', title: 'Gulai Otak', price: 'Rp 20.000', rating: 4 },
-    { id: 8, image: 'https://i.ibb.co/3zd0b4h/dendeng-balado.png', title: 'Ikan Asam Padeh', price: 'Rp 23.000', rating: 5 },
+    { id: 1, image: 'https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/31040437/ini-resep-bumbu-rendang-daging-sapi-untuk-acara-spesial.jpg', title: 'Rendang Sapi', price: 'Rp 13.000', rating: 5 },
+    { id: 2, image: 'https://buckets.sasa.co.id/v1/AUTH_Assets/Assets/p/website/medias/page_medias/Screen_Shot_2021-11-29_at_16_40_14.png', title: 'Ayam Pop', price: 'Rp 12.000', rating: 5 },
+    { id: 3, image: 'https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/247/2025/05/06/Gulai-Cincang-1625896331.jpg', title: 'Gulai Cincang', price: 'Rp 12.000', rating: 5 },
+    { id: 4, image: 'https://asset.kompas.com/crops/T-xKoNscDfJL6D9yvC9pPpd4YnI=/0x333:1000x1000/1200x800/data/photo/2020/08/02/5f26b02a99288.jpg', title: 'Dendeng Balado', price: 'Rp 10.000', rating: 4 },
+    { id: 5, image: 'https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/03/Resep-Gulai-tunjang.jpg?fit=500%2C500&ssl=1', title: 'Gulai Tunjang', price: 'Rp 13.000', rating: 4 },
+    { id: 6, image: 'https://asset.kompas.com/crops/cEZ0mfBVR8WIt6de9hR2IkhyOCs=/0x34:700x501/1200x800/data/photo/2022/02/08/6201f11219dcb.jpg', title: 'Ayam Bakar', price: 'Rp 8.000', rating: 5 },
+    { id: 7, image: 'https://pict.sindonews.net/dyn/732/pena/news/2020/07/04/185/90120/tips-mudah-bikin-gulai-nangka-padang-ext.jpg', title: 'Sayur Nagka', price: 'Rp 5.000', rating: 4 },
+    { id: 8, image: 'https://pict.sindonews.net/dyn/732/pena/news/2020/11/12/185/229188/bingung-makan-apa-siang-ini-bikin-aja-ikan-pindang-asam-padeh-fkg.jpg', title: 'Ikan Asam Padeh', price: 'Rp 12.000', rating: 5 },
   ];
 
   return (

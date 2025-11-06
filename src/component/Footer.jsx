@@ -12,7 +12,7 @@ function Footer() {
       <Container>
         <div className="footer-content">
           <h3 className="footer-brand">
-            <span className="brand-highlight">Padang</span> Delights
+            <span className="brand-highlight">RM</span> Putri Sulung
           </h3>
           <p className="footer-tagline">
             Menyajikan Cita Rasa Minang Asli Sejak 2023.
