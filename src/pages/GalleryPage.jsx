@@ -1,19 +1,13 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-
-// Impor komponen utama dari library baru
 import Lightbox from "yet-another-react-lightbox";
-// Impor juga CSS-nya
 import "yet-another-react-lightbox/styles.css";
-
-import "./GalleryPage.css"; // Kita tetap pakai CSS ini untuk judul
+import "./GalleryPage.css"; 
 
 function GalleryPage() {
-  // State untuk mengontrol lightbox
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
-
-  // Data gambar. Sekarang hanya butuh 'src'.
+  
   const photos = [
     {
       src: "https://cdn0-production-images-kly.akamaized.net/msy8OctlAp0x0F83cSb8558rSU4=/1x16:1000x579/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3386754/original/012310700_1614242493-shutterstock_1688670580.jpg",

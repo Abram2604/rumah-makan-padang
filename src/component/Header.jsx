@@ -17,7 +17,7 @@ function Header() {
             <BsTelephoneFill className="icon" />
             <div>
               <span className="label">Pesan Sekarang</span>
-              <span>+62 812-1234-5678</span>
+              <span>+62 838-4068-5252</span>
             </div>
           </div>
         </div>

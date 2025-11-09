@@ -17,8 +17,7 @@ function ContactPage() {
             <h3 className="info-title">Informasi Kontak</h3>
             <div className="info-block">
               <p><strong>Alamat:</strong>Jl. Imanan Residence, Serang, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530</p>
-              <p><strong>Telepon:</strong> +62 812-1234-5678</p>
-              <p><strong>Email:</strong> info@rmputrisulung.com</p>
+              <p><strong>Telepon:</strong> +62 838-4068-5252</p>
             </div>
             <h3 className="info-title mt-4">Jam Buka</h3>
             <div className="info-block">
@@ -28,15 +27,10 @@ function ContactPage() {
 
           </Col>
 
-          {/* ========== KOLOM KANAN: FORM ========== */}
           <Col lg={7} md={12}>
             <Form className="contact-form">
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Control type="text" placeholder="Nama Anda" />
-              </Form.Group>
-
-              <Form.Group className="mb-3" controlId="formEmail">
-                <Form.Control type="email" placeholder="Email Anda" />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formMessage">
