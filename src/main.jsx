@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* 3. Bungkus komponen <App /> dengan <BrowserRouter> */}
     {/*    Ini adalah langkah krusial yang membuat semua komponen routing berfungsi. */}
-    <BrowserRouter>
+    <BrowserRouter basename="/rumah-makan-padang" >
       <App />
     </BrowserRouter>
   </React.StrictMode>
