@@ -10,31 +10,31 @@ function GalleryPage() {
   
   const photos = [
     {
-      src: "/images/fotbar.jpg",
+      src: "./images/fotbar.jpg",
     },
     {
-      src: "/images/abgsndr.jpg",
+      src: "./images/abgsndr.jpg",
     },
     {
-      src: "/images/fotbar2.jpg",
+      src: "./images/fotbar2.jpg",
     },
     {
-      src: "/images/terong.jpg",
+      src: "./images/terong.jpg",
     },
     {
-      src: "/images/ikan.jpg",
+      src: "./images/ikan.jpg",
     },
     {
-      src: "/images/telur.jpg",
+      src: "./images/telur.jpg",
     },
     {
-      src: "/images/ayam.jpg",
+      src: "./images/ayam.jpg",
     },
     {
-      src: "/images/rendang.jpg",
+      src: "./images/rendang.jpg",
     },
     {
-      src: "/images/perkedel.jpg",
+      src: "./images/perkedel.jpg",
     },
   ];
 

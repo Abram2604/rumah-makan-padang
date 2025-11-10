@@ -7,28 +7,28 @@ function BestSeller() {
   const products = [
     {
       id: 1,
-      image: "/images/rendang.jpg",
+      image: "./images/rendang.jpg",
       title: "Rendang Sapi",
       price: "Rp 15.000",
       rating: 5,
     },
     {
       id: 2,
-      image: "/images/ayam.jpg",
+      image: "./images/ayam.jpg",
       title: "Ayam Goreng",
       price: "Rp 12.000",
       rating: 5,
     },
     {
       id: 3,
-      image: "/images/ikan.jpg",
+      image: "./images/ikan.jpg",
       title: "Ikan Goreng",
       price: "Rp 12.000",
       rating: 5,
     },
     {
       id: 4,
-      image: "/images/telur.jpg",
+      image: "./images/telur.jpg",
       title: "Telur Dadar",
       price: "Rp 10.000",
       rating: 4,
